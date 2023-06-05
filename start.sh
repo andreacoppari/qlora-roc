@@ -1,0 +1,2 @@
+export LD_LIBRARY_PATH=/opt/conda/lib:$LD_LIBRARY_PATH
+cp /opt/conda/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cuda117.so /opt/conda/lib/python3.10/site-packages/bitsandbytes/libbitsandbytes_cpu.so
